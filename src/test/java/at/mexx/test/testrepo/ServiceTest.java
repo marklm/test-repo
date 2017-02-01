@@ -8,7 +8,7 @@ public class ServiceTest {
 
 	@Test
 	public void testFoo() {
-		boolean foo = new Service().foo(3 * 60);
+		boolean foo = new Service().foo(2 * 60);
 		
 		assertTrue(foo);
 	}
